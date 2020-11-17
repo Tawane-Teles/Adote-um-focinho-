@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Adote um focinho</string>
+    <string name="app_name">Adote um Focinho</string>
+    <string name="digite_o_nome">Digite o nome:</string>
+    <string name="inserir">Inserir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="dog1">Temos uma casa com mais de 100 doguinhos para adoção!</string>
+    <string name="dog2">Não compre, adote!</string>
+    <string name="foto_de_cachorro">Foto de cachorro</string>
+    <string name="doacaodecachorro">doacaodecachorro</string>
+    <string name="doacao_de_cachorros">Doacao de cachorros</string>
+    <string name="essa_imagem_do_doguinho">essa imagem é do doguinho</string>
+    <string name="textonaocompreadote">textonaocompreadote</string>
+    <string name="n_o_compre_adote">Não compre, adote!</string>
+    <string name="imagem_do_cachorrinho">Imagem do cachorrinho</string>
+    <string name="texto_titulo">texto titulo</string>
+    <string name="nossa_casa_tem_mais_de_100_caezinhos_para_adocao">Nossa casa tem mais de 100 caezinhos para adocao</string>
+    <string name="segundo_texto">segundo texto</string>
+    <string name="segunda_parte">segunda parte</string>
+    <string name="nao_compre_e_sim_adote">Nao compre e sim adote</string>
+    <string name="primeira_imagem_do_cachorrinho">Primeira imagem do cachorrinho</string>
+    <string name="primeiro_texto">Primeiro texto</string>
+    <string name="nao_compre_adote">Nao compre, adote</string>
+    <string name="segunda_imagem_do_cachorrinho">Segunda imagem do cachorrinho</string>
+    <string name="lindos_focinhos">Lindos focinhos</string>
+    <string name="entrar">Entrar</string>
 </resources>

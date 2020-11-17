@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_cachorrinhoum"
+        android:layout_width="wrap_content"
+        android:layout_height="269dp"
+        android:contentDescription="@string/primeira_imagem_do_cachorrinho"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_caoum" />
+
+    <TextView
+        android:id="@+id/text_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/primeiro_texto"
+        android:fontFamily="@font/allerta"
+        android:text="@string/nao_compre_adote"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_cachorrinhoum" />
+
+    <ImageView
+        android:id="@+id/img_cachorrinhodois"
+        android:layout_width="wrap_content"
+        android:layout_height="269dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/segunda_imagem_do_cachorrinho"
+        android:scaleType="fitEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo"
+        app:srcCompat="@drawable/img_caodois" />
+
+    <TextView
+        android:id="@+id/text_titulodois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/segundo_texto"
+        android:fontFamily="@font/allerta"
+        android:text="@string/lindos_focinhos"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_cachorrinhodois" />
+
+    <Button
+        android:id="@+id/button_primeirobotao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/entrar"
+        app:backgroundTint="#D5846B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
