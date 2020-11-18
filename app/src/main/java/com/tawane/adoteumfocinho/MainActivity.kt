@@ -30,5 +30,6 @@ class MainActivity : AppCompatActivity() {
         nameList.add("Amora")
         nameList.add("Junior")
         nameList.add("Ane")
+        nameList.add("Tiaguinho")
     }
 }

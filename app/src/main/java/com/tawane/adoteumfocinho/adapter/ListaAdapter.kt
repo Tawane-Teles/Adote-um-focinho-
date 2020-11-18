@@ -42,6 +42,14 @@ class ListaAdapter(nameList: List<String>, private var ctx: Context) :
             holder.name.setTextColor(ContextCompat.getColor(ctx, R.color.colorCledy))
             holder.imagem.setBackgroundResource(R.drawable.img_caodois)
         }
+        if (name == "Ane") {
+            holder.name.setTextColor(ContextCompat.getColor(ctx, R.color.purple_200))
+            holder.imagem.setBackgroundResource(R.drawable.ic_baseline_sick_24)
+        }
+        if (name == "Tiaguinho") {
+            holder.name.setTextColor(ContextCompat.getColor(ctx, R.color.purple_500))
+            holder.imagem.setBackgroundResource(R.drawable.ic_baseline_person_24)
+        }
     }
 
     // Devolve quantidade de itens do nameList
