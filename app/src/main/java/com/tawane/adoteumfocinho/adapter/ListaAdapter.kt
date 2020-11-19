@@ -60,6 +60,6 @@ class ListaAdapter(nameList: List<String>, private var ctx: Context) :
     // Aqui é a criação dos itens do viewholder
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var name = view.findViewById<TextView>(R.id.text_titulo)
-        var imagem = view.findViewById<ImageView>(R.id.img_cachorrinhoum)
+        var imagem = view.findViewById<ImageView>(R.id.caonatal)
     }
 }

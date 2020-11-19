@@ -5,28 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/img_cachorrinhoum"
-        android:layout_width="wrap_content"
-        android:layout_height="269dp"
-        android:background="@drawable/img_caoum"
-        android:contentDescription="@string/primeira_imagem_do_cachorrinho"
-        android:scaleType="fitStart"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/text_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:contentDescription="@string/primeiro_texto"
         android:fontFamily="@font/allerta"
         android:text="@string/nao_compre_adote"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_cachorrinhoum" />
+        app:layout_constraintTop_toBottomOf="@+id/caonatal"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/caonatal"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="@drawable/img_caonatal"
+        android:contentDescription="imagem cao natal"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

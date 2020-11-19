@@ -27,9 +27,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getDogs() {
-        nameList.add("Amora")
-        nameList.add("Junior")
-        nameList.add("Ane")
-        nameList.add("Tiaguinho")
+        nameList.add("Lúcia")
+        nameList.add("José")
+        nameList.add("Toninha")
+        nameList.add("Luiz")
+        nameList.add("Tita")
     }
 }
