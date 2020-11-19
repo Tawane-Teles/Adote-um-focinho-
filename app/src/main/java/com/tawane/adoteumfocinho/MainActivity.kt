@@ -4,10 +4,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.tawane.adoteumfocinho.adapter.ListaAdapter
+import com.tawane.adoteumfocinho.adapter.ListOfCountriesAdapter
+import com.tawane.adoteumfocinho.utils.Constant.CANADA
+import com.tawane.adoteumfocinho.utils.Constant.CHINA
+import com.tawane.adoteumfocinho.utils.Constant.ESTADOSUNIDOS
+import com.tawane.adoteumfocinho.utils.Constant.RUSSIA
+import com.tawane.adoteumfocinho.utilsdois.ConstantDois.BRAZILDOIS
 
 class MainActivity : AppCompatActivity() {
-    var listaAdapter: ListaAdapter? = null
+    var listaAdapter: ListOfCountriesAdapter? = null
     var linearLayoutManager: LinearLayoutManager? = null
     var nameList = ArrayList<String>()
 
@@ -19,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val list: RecyclerView = findViewById(R.id.list_dogs)
 
         getDogs()
-        listaAdapter = ListaAdapter(nameList, this)
+        listaAdapter = ListOfCountriesAdapter(nameList, this)
         linearLayoutManager = LinearLayoutManager(this)
         list.layoutManager = linearLayoutManager
         list.adapter = listaAdapter
@@ -27,10 +32,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getDogs() {
-        nameList.add("Lúcia")
-        nameList.add("José")
-        nameList.add("Toninha")
-        nameList.add("Luiz")
-        nameList.add("Tita")
+        nameList.add(BRAZILDOIS)
+        nameList.add(RUSSIA)
+        nameList.add(CANADA)
+        nameList.add(CHINA)
+        nameList.add(ESTADOSUNIDOS)
     }
+
 }

@@ -2,31 +2,29 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-    <TextView
-        android:id="@+id/text_titulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/primeiro_texto"
-        android:fontFamily="@font/allerta"
-        android:text="@string/nao_compre_adote"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/caonatal"
-        tools:ignore="MissingConstraints" />
+    android:layout_width="wrap_content"
+    android:layout_height="250dp">
 
     <ImageView
-        android:id="@+id/caonatal"
+        android:id="@+id/img_paises"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:background="@drawable/img_caonatal"
-        android:contentDescription="imagem cao natal"
-        android:scaleType="fitStart"
+        android:layout_height="230dp"
+        android:background="@drawable/img_eua"
+        android:contentDescription="@string/essa_imagem_do_pa_s"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/underdog"
+        android:text="@string/os_5_maiores_pa_ses_do_mundo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_paises" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
